@@ -1,24 +1,15 @@
-# README
+# d3-dive
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+After much trail and error I got a simple bar chart to how up. I did learn that d3 + react is harder then you think. this article was very helpful https://medium.com/@Elijah_Meeks/interactive-applications-with-react-d3-f76f7b3ebc71.
 
-Things you may want to cover:
+if you want to see waht i got follow pull down the repo and run
+```
+bundle
+rails s
 
-* Ruby version
+```
+in a new tab run
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+./bin/webpack-dev-server
+```
