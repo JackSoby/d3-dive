@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Home from '../react/src/Home';
+import BarChart from '../react/src/BarChart';
 
 document.addEventListener('DOMContentLoaded', () => {
-  ReactDOM.render(<Home />, document.getElementById('app'));
+  ReactDOM.render(<BarChart data={[5,10,1,3]} size={[500,500]} />, document.getElementById('app'));
 })
